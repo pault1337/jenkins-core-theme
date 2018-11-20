@@ -102,7 +102,7 @@
   .icon-img('../node_modules/jenkins-core-theme/images/wrench.svg', @color-grey);
 }
 
-.icon-info, [src$='info.gif'] {
+.icon-info, [src$='info.gif'], [src$='orange-square.png'] {
   .icon-img('../node_modules/jenkins-core-theme/images/information.svg', @color-grey);
 }
 
@@ -254,6 +254,14 @@
   .icon-img('../node_modules/jenkins-core-theme/images/package-down.svg', @color-grey);
 }
 
+.icon-unit-tests, [src$='test-results-analyzer/images/icon.png'] {
+  .icon-img('../node_modules/jenkins-core-theme/images/unit-tests.svg', @color-grey);
+}
+
+.icon-document-properties, [src$='document-properties.png'] {
+  .icon-img('../node_modules/jenkins-core-theme/images/document-properties.svg', @color-grey);
+}
+
 .icon-search, [src$='search.png'] {
   .icon-img('../node_modules/jenkins-core-theme/images/info_outline.svg', @color-grey);
 }
@@ -268,7 +276,7 @@
 
 [src$='/atom.gif'] {
   .icon(@size-md);
-  .icon-img('../node_modules/jenkins-core-theme/images/rss-box.svg', @color-yellow);
+  .icon-img('../node_modules/jenkins-core-theme/images/rss-box.svg', @color-grey);
 }
 
 [src$='credentials.png'] {
@@ -358,11 +366,13 @@
 .icon-switch-off, [src$='switch-off.png'],
 .icon-switch-on, [src$='switch-on.png'],
 .icon-buildbadge, [src$='buildbadge.png'],
+.icon-unit-tests, [src$='test-results-analyzer/images/icon.png'],
+.icon-document-properties, [src$='document-properties.png'],
 .icon-info, [src$='info.gif'],
 .icon-quick-restart, [src$='quick_restart.png'],
 .icon-device, [src$='device-24x24.png'],
 .icon-advqueue, [src$='advqueue.png'],
-.icon-information, [src$='information.png'],
+.icon-information, [src$='information.png'], [src$='orange-square.png'],
 .icon-files, [src$='cfg_logo.png'],
 .icon-mail, [src$='template-debugger.png'],
 .icon-manage-old, [src$='document.png'],
